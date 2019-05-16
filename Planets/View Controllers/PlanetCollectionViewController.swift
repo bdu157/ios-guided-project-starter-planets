@@ -14,7 +14,6 @@ class PlanetCollectionViewController: UICollectionViewController {
 
     let planetController = PlanetController()
     
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -36,5 +35,5 @@ class PlanetCollectionViewController: UICollectionViewController {
 
         return cell
     }
-
+    @IBAction func unwindToCollectionViewSegue(_ sender: UIStoryboardSegue) {}
 }

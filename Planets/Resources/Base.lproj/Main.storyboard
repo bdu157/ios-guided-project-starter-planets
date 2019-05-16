@@ -87,7 +87,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zX-Pw-m4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676" y="145.56650246305421"/>
+            <point key="canvasLocation" x="658" y="146"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="Snh-LR-i9c">
@@ -115,8 +115,11 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45P-BK-HdI">
-                                <rect key="frame" x="313" y="60" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="322" y="60" width="37" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="xJF-sO-Qud" kind="unwind" unwindAction="unwindToCollectionViewSegue:" id="wrt-Tb-ThB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -134,8 +137,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4Z-de-uex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xJF-sO-Qud" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1376.8" y="142.61083743842366"/>
+            <point key="canvasLocation" x="1377" y="146"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="huI-Vs-E4F">
